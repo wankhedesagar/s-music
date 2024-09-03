@@ -13,7 +13,7 @@ function App() {
   const getTracks = async () => {
     setIsLoading(true)
     let data = await fetch(
-      `https://v1.nocodeapi.com/swankhede/spotify/JTLbHvlgUwoksveR/search?q=${keyword === "" ? "trending" :  keyword }&type=track`
+      `https://v1.nocodeapi.com/swankhede/spotify/yourApikay/search?q=${keyword === "" ? "trending" :  keyword }&type=track`
     );
     let convertedData = await data.json();
     console.log(convertedData.tracks.items);
