@@ -1,0 +1,14 @@
+#sppiner{
+    height: 50px;
+    width: 50px;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: red black black black;
+    animation: rotate 1.5s linear infinite;
+ 
+    
+}
+
+@keyframes rotate {
+    to {transform:rotate(365deg)};
+}
